@@ -1,0 +1,10 @@
+header {
+    background-color: hsla(120, 100%, 80%, 0.75);
+    padding: 15px;
+    font-size: 40px;
+}
+
+.body { 
+    margin: 200px;
+    text-align: center;
+}
