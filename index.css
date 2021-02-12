@@ -1,10 +1,30 @@
-header {
-    background-color: hsla(120, 100%, 80%, 0.75);
-    padding: 15px;
-    font-size: 40px;
+.body{
+    background-color: orange;
+    max-width: 400X;
+    height: 300px;
+    margin:auto; 
+    text-align: center;
 }
 
-.body { 
-    margin: 200px;
-    text-align: center;
+img{ 
+    height: 100px;
+    width: 100px;
+    border :2px solid orange;
+    margin: auto;
+    border-radius: 50%;
+    background-color:black;
+}
+
+.login{
+    padding: 2px; 
+}
+
+.section1 {
+}
+.login{
+    font-size: 20px;
+
+}
+header{
+    background-color: black;
 }
