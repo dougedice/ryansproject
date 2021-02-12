@@ -10,18 +10,20 @@
 <body>
    <div class="body"> 
     <header>
-        <p>logo</p>
+    
+        <img src="resorce/css/images/rlogo.jpg">
     </header>
   
-    <section>
+    <section class="section1">
    
-        <form>  
-            <h1>Log in</h1>
+        <form action="" method="POST">  
+            <h1 class="login">Login</h1>
             <label for="username">Username:</label>
-            <input type="text" name="username" id="username">
+            <input type="text" name="username" id="username" maxlength="20" required pattern:[a-zA-Z0-9]+>
             <br>
             <Label for="user-password">Password:</Label>
-            <input type="password" name="user-password" id="user-password">
+            <input type="password" name="user-password" id="user-password" maxlength="30" required pattern:[a-zA-Z0-9]+>
+            <imput type="submit" value="submit">
         </form>
   
     </section>  
