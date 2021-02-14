@@ -2,8 +2,10 @@
     background-color: orange;
     max-width: 400X;
     height: 300px;
-    margin:auto; 
+    margin: 0 auto; 
     text-align: center;
+    width: 400px;
+    border-radius: 25px;
 }
 
 img{ 
@@ -19,8 +21,6 @@ img{
     padding: 2px; 
 }
 
-.section1 {
-}
 .login{
     font-size: 20px;
 
